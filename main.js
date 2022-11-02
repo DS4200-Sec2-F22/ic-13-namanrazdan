@@ -10,7 +10,7 @@ var svg = d3.select("#vis1")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("3_TwoNumOrdered_comma.csv",
+d3.csv("/data/libary.csv",
 
   // When reading the csv, I must format variables:
   function(d){
